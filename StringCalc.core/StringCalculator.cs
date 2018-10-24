@@ -5,7 +5,7 @@ namespace StringCalc.core
     /// <summary>
     /// Library to calculate integer values from strings
     /// </summary>
-    public class StringCalculator
+    public class StringCalculator : IStringCalculator
     {
         /// <summary>
         /// Adds all the integer values in a delimited string
